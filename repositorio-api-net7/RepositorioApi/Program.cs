@@ -1,9 +1,11 @@
+using Application.DTO;
 using Domain.Entities;
 using Domain.Interfaces;
 using Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//serviços
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
@@ -18,8 +20,10 @@ builder.Services.AddCors(options =>
 builder.Services.AddHttpClient();
 builder.Services.AddSingleton<IRepositorioService, RepositorioService>();
 
+
 var app = builder.Build();
 
+//middleware de requisição
 app.Use(async (context, next) =>
 {
     try
@@ -39,31 +43,30 @@ app.UseSwagger();
 app.UseSwaggerUI();
 app.UseCors("AllowAll");
 
-//requisicao para buscar repositorios, ordena por relevancia
+
+
+// GET Para requisição dos repositórios
 app.MapGet("/repos/relevantes", async (string nome, IRepositorioService service) =>
 {
-    var repos = await service.ListarRepositoriosDoUsuario(nome);
-    var ordenados = repos
-        .OrderByDescending(r => r.Relevancia)
-        .ToList();
-
-    return Results.Ok(ordenados);
+    // O serviço agora retorna uma lista de RepositorioResponseDTO já ordenada
+    var repositoriosDto = await service.ListarRepositoriosDoUsuario(nome);
+    return Results.Ok(repositoriosDto);
 });
 
-//requisicao para adicionar aos favoritos
-app.MapPost("/favoritos", async (Favorito favorito, IRepositorioService service) =>
+//POST para adicionar favoritos
+app.MapPost("/favoritos", async (AdicionarFavoritoDTO favoritoDto, IRepositorioService service) =>
 {
     Console.WriteLine("➡️ POST recebido:");
-    Console.WriteLine($"Nome: {favorito.Nome}, Url: {favorito.Url}");
-    await service.AdicionarFavorito(favorito);
+    Console.WriteLine($"Nome: {favoritoDto.Nome}, Url: {favoritoDto.Url}");
+    await service.AdicionarFavorito(favoritoDto);
     return Results.Ok(new { message = "Favorito adicionado." });
 });
 
-//requisicao para listar favoritos
+//Get para listar favoritos
 app.MapGet("/favoritos", async (IRepositorioService service) =>
 {
-    var favoritos = await service.ListarFavoritos();
-    return Results.Ok(favoritos);
+    var favoritosDto = await service.ListarFavoritos();
+    return Results.Ok(favoritosDto);
 });
 
 app.Run();

@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\RepositorioApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD825D7E-EFE9-4504-8151-8DF49C5D27DB}|..\\Application\\Application.csproj|c:\\users\\danie\\study\\testedev\\testedev\\repositorio-api-net7\\application\\dto\\adicionarfavoritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD825D7E-EFE9-4504-8151-8DF49C5D27DB}|..\\Application\\Application.csproj|c:\\users\\danie\\study\\testedev\\testedev\\repositorio-api-net7\\application\\dto\\favoritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD825D7E-EFE9-4504-8151-8DF49C5D27DB}|..\\Application\\Application.csproj|c:\\users\\danie\\study\\testedev\\testedev\\repositorio-api-net7\\application\\dto\\repositorioapiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|c:\\users\\danie\\study\\testedev\\testedev\\repositorio-api-net7\\domain\\interfaces\\irepositorioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6F760F-1D5B-4A27-8214-520B11D198D4}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\danie\\study\\testedev\\testedev\\repositorio-api-net7\\infrastructure\\services\\repositorioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43C3E1D-47AE-6BB9-EC8C-61C711328676}|RepositorioApi.csproj|c:\\users\\danie\\study\\testedev\\testedev\\repositorio-api-net7\\repositorioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43C3E1D-47AE-6BB9-EC8C-61C711328676}|RepositorioApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7522447C-0D2B-47A1-AEF5-A89F32D52AE6}|..\\RepositorioService.Tests\\RepositorioService.Tests.csproj|c:\\users\\danie\\study\\testedev\\testedev\\repositorio-api-net7\\repositorioservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F6F760F-1D5B-4A27-8214-520B11D198D4}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\danie\\study\\testedev\\testedev\\repositorio-api-net7\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7522447C-0D2B-47A1-AEF5-A89F32D52AE6}|..\\RepositorioService.Tests\\RepositorioService.Tests.csproj|c:\\users\\danie\\study\\testedev\\testedev\\repositorio-api-net7\\repositorioservice.tests\\repositorioservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\RepositorioApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\RepositorioApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T01:11:15.479Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdicionarFavoritoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Application\\DTO\\AdicionarFavoritoDTO.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTO\\AdicionarFavoritoDTO.cs",
+              "ToolTip": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Application\\DTO\\AdicionarFavoritoDTO.cs",
+              "RelativeToolTip": "..\\Application\\DTO\\AdicionarFavoritoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T03:47:23.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepositorioService.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Domain\\Interfaces\\IRepositorioService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepositorioService.cs",
+              "ToolTip": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Domain\\Interfaces\\IRepositorioService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepositorioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T03:31:38.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositorioApiResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Application\\DTO\\RepositorioApiResponseDTO.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTO\\RepositorioApiResponseDTO.cs",
+              "ToolTip": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Application\\DTO\\RepositorioApiResponseDTO.cs",
+              "RelativeToolTip": "..\\Application\\DTO\\RepositorioApiResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T02:55:54.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositorioService.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Infrastructure\\Services\\RepositorioService.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Services\\RepositorioService.cs",
+              "ToolTip": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Infrastructure\\Services\\RepositorioService.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Services\\RepositorioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T01:54:06.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepositorioService.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\RepositorioService.Tests\\RepositorioService.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\RepositorioService.Tests\\RepositorioService.Tests.csproj",
+              "ToolTip": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\RepositorioService.Tests\\RepositorioService.Tests.csproj",
+              "RelativeToolTip": "..\\RepositorioService.Tests\\RepositorioService.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T02:42:33.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FavoritoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Application\\DTO\\FavoritoDTO.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTO\\FavoritoDTO.cs",
+              "ToolTip": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Application\\DTO\\FavoritoDTO.cs",
+              "RelativeToolTip": "..\\Application\\DTO\\FavoritoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T03:47:37.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\RepositorioService.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\RepositorioService.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\RepositorioService.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\RepositorioService.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T02:39:15.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\danie\\Study\\TesteDEV\\TesteDEV\\repositorio-api-net7\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "..\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T03:39:15.973Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,6 @@
-﻿using Domain.Entities;
-using System;
+﻿using Application.DTO; // Adicionar o using para os DTOs
+using Domain.Entities;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Domain.Interfaces
@@ -10,8 +8,11 @@ namespace Domain.Interfaces
     public interface IRepositorioService
     {
         Task<List<Repositorio>> BuscarRepositorios(string termo);
-        Task<List<Repositorio>> ListarRepositoriosDoUsuario(string termo);
-        Task AdicionarFavorito(Favorito favorito);
-        Task<List<Favorito>> ListarFavoritos();
+
+        Task<List<RepositorioResponseDTO>> ListarRepositoriosDoUsuario(string termo);
+
+        Task AdicionarFavorito(AdicionarFavoritoDTO favoritoDto);
+
+        Task<List<FavoritoDTO>> ListarFavoritos();
     }
 }

@@ -13,6 +13,7 @@ using System.Net.Http.Headers;
 using System;
 using System.Linq;
 using Moq.Protected;
+using Application.DTO;
 
 public class RepositorioServiceTests
 {
@@ -91,7 +92,7 @@ public class RepositorioServiceTests
 
         var service = new RepositorioService(httpClient, loggerMock.Object);
 
-        var favorito = new Favorito
+        var favorito = new AdicionarFavoritoDTO
         {
             Nome = "teste1",
             Url = "https://github.com/teste1"
@@ -117,7 +118,7 @@ public class RepositorioServiceTests
 
         var service = new RepositorioService(httpClient, loggerMock.Object);
 
-        var favorito = new Favorito
+        var favorito = new AdicionarFavoritoDTO
         {
             Nome = "teste1",
             Url = "https://github.com/teste1"
