@@ -1,0 +1,23 @@
+
+<div style="display: flex; justify-content: flex-end; padding: 10px;">
+  <a><button routerLink="/favoritos" routerLinkActive="active">⭐ Favoritos</button></a>
+</div>
+
+<div class="container">
+  <h2>Buscar Repositórios</h2>
+  <input type="text" [(ngModel)]="repos" placeholder="Digite o nome do usuário GitHub" />
+  <button (click)="buscarRepos()">Buscar</button>
+
+  <div *ngIf="repositorios.length > 0">
+    <h3>Repositórios de {{ repos }}</h3>
+    <ul>
+      <li *ngFor="let repo of repositorios">  
+        <button (click)="adicionarAosFavoritos(repo)">Favoritar</button>
+    ⭐ {{ repo.estrelas }} | 🍴 {{ repo.forks }} | 👁️ {{ repo.watchers }}
+    <a [href]="repo.url" target="_blank">{{ repo.nome }}</a>
+    
+</li>
+    </ul>
+  </div>
+</div>
+

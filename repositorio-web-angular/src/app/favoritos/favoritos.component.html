@@ -1,0 +1,8 @@
+<h2>⭐ Repositórios Favoritos</h2>
+
+<ul>
+  <li *ngFor="let repo of favoritos">
+    <a [href]="repo.url" target="_blank">{{ repo.nome }}</a>
+</ul>
+
+<a><button routerLink="/repositorios" style="margin-top: 20px;">⬅ Voltar</button></a>
