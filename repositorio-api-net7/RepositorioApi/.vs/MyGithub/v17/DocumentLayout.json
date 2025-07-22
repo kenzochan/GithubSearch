@@ -51,8 +51,7 @@
               "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T01:11:15.479Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "..\\Domain\\Interfaces\\IRepositorioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T03:31:38.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T03:31:38.646Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "..\\Application\\DTO\\RepositorioApiResponseDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T02:55:54.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T02:55:54.741Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "..\\Infrastructure\\Services\\RepositorioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T01:54:06.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T01:54:06.055Z"
             },
             {
               "$type": "Document",
@@ -136,8 +132,7 @@
               "RelativeToolTip": "..\\Application\\DTO\\FavoritoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T03:47:37.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T03:47:37.042Z"
             },
             {
               "$type": "Document",
@@ -149,8 +144,7 @@
               "RelativeToolTip": "..\\RepositorioService.Tests\\UnitTest1.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAHgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T02:39:15.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T02:39:15.416Z"
             },
             {
               "$type": "Document",

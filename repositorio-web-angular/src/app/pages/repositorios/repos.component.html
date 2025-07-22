@@ -1,11 +1,11 @@
-
 <div style="display: flex; justify-content: flex-end; padding: 10px;">
   <a><button routerLink="/favoritos" routerLinkActive="active">⭐ Favoritos</button></a>
 </div>
 
 <div class="container">
   <h2>Buscar Repositórios</h2>
-  <input type="text" [(ngModel)]="repos" placeholder="Digite o nome do usuário GitHub" />
+  <input type="text" [(ngModel)]="repos" placeholder="Digite o nome do usuário GitHub" 
+         (keyup.enter)="buscarRepos()" />
   <button (click)="buscarRepos()">Buscar</button>
 
   <div *ngIf="repositorios.length > 0">
@@ -20,4 +20,3 @@
     </ul>
   </div>
 </div>
-
